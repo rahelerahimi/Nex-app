@@ -1,0 +1,44 @@
+.parentLoveUs{
+     @apply
+     w-[92%]
+     mx-auto
+     mt-10
+}
+.titleLoveUs{
+     @apply
+     text-white
+     text-3xl
+     text-center
+     font-bold
+     py-10
+}
+.parentMapLoveUsdata{
+     @apply
+     grid
+     gap-3
+     justify-center
+     grid-cols-1
+     md:grid-cols-2
+     lg:grid-cols-4
+     text-white
+}
+.parentMapLoveUsdata div:nth-of-type(1){
+     @apply
+     mt-10
+}
+.parentMapLoveUsdata img{
+     @apply
+       w-[20%]
+       h-[60px]
+       rounded-lg
+       my-3
+}
+.parentMapLoveUsdata p{
+     @apply
+      capitalize
+}
+.parentMapLoveUsdata p:nth-of-type(2){
+     @apply
+      w-[90%]
+      py-3
+}

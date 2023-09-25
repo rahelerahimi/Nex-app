@@ -1,0 +1,51 @@
+
+.commentTitle{
+     @apply
+     text-lg
+     font-bold
+     border-b
+     border-zinc-700
+     mt-10
+     mb-4
+     pb-2
+}
+
+.parentComment{
+     @apply
+     p-5
+     my-3
+     border-b
+     border-zinc-700  
+}
+.flexComment{
+     @apply
+     flex
+}
+.flexComment p:nth-of-type(2){
+     @apply
+     px-2
+}
+.commentArea{
+     @apply
+     translate-y-3
+     
+}
+.flexComment button:nth-of-type(1){
+     @apply
+     text-lime-600
+     pr-2
+}
+.flexComment button:nth-of-type(2){
+     @apply
+     text-red-700
+}
+.commentFirst{
+     @apply
+     text-lg
+     font-bold
+     my-4
+}
+.commentFirstTitle{
+     @apply
+    text-violet-400
+}

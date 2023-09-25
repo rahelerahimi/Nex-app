@@ -1,0 +1,69 @@
+
+.parentAllMovies{
+     @apply
+     mt-8
+}
+
+.titleAllMovies{
+     @apply
+     text-slate-50
+     text-center
+     py-10
+     font-bold
+     text-3xl
+     capitalize
+}
+
+.parentImageMovies{
+     @apply
+     mx-auto
+     grid
+     px-7
+     py-10
+     lg:grid-cols-2
+}
+.figure{
+     @apply
+     overflow-hidden 
+     relative   
+}
+.moviesAbsolute{
+     @apply
+     absolute
+     bg-black/[0.4]
+     w-[90%]
+     h-[85%]
+     top-6
+     left-6
+     rounded-xl
+     flex
+     justify-center
+     align-middle
+     hover:bg-black/[0.6]
+}
+.imageMovies{
+     @apply
+     object-cover
+     w-[90%]
+     h-[270px]
+     m-6
+     rounded-xl
+     duration-1000
+     hover:translate-y-7
+     
+}
+.btnShow{
+     @apply
+     btn 
+     bg-[#7C3AED]
+     btn-accent
+     mt-32
+     capitalize
+     text-white
+     border-transparent
+     duration-300
+     hover:bg-[#7C3AED]
+     hover:border-transparent
+     hover:translate-y-2
+
+}

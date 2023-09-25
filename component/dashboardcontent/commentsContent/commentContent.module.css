@@ -1,0 +1,65 @@
+
+.commentsTitle{
+     @apply
+     capitalize
+     text-white
+     font-bold
+     text-xl
+     text-center
+     lg:text-left
+     lg:m-3
+     my-7
+
+}
+.parentMapComment{
+     @apply
+     text-white
+     flex
+     flex-wrap
+     justify-center
+     lg:justify-start
+   
+}
+.mapComment{
+     @apply
+     mt-5
+     lg:m-3
+}
+.mapComment:nth-of-type(2){
+     @apply
+     mr-16
+     md:mr-0
+}
+.mapComment div:nth-of-type(1){
+     @apply
+     flex
+}
+
+.imgComment{
+     @apply
+     w-[100px]
+     rounded-lg
+     mt-2
+}
+
+.mapComment p{
+     @apply
+     capitalize
+     font-bold
+     py-2
+     px-4
+     mt-10  
+}
+
+.btnComment{
+     @apply
+     text-cyan-500
+     py-2
+     px-10
+     rounded-lg
+     border
+     border-cyan-700
+     mt-7
+     mr-1
+     capitalize
+}

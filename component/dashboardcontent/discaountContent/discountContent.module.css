@@ -1,0 +1,53 @@
+
+.titleSubScribe{
+     @apply
+     text-white
+     text-xl
+     font-bold
+     text-left
+     capitalize
+     mt-3
+     ml-1
+}
+.parentMapDiscount{
+     @apply
+     flex
+     flex-wrap
+     justify-center
+     md:flex-nowrap
+     text-white
+     p-2
+     mr-1
+     mt-6
+}
+
+.mapDiscount{
+     @apply
+     m-2
+     w-[100%]
+     md:w-[50%]
+     bg-slate-700
+     rounded-lg
+     flex
+     justify-start
+     p-3
+}
+
+.parentCountTitle{
+     @apply
+     flex
+     justify-start
+     text-left
+     mt-5
+     px-3
+}
+.parentCountTitle p{
+     @apply
+     capitalize
+     mx-1
+     text-left
+}
+.textDiscount{
+     @apply
+     ml-4
+}

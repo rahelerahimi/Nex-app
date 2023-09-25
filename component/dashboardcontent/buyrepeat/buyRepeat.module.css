@@ -1,0 +1,54 @@
+
+.parentAllBuyRepeat{
+     @apply
+     flex
+     flex-col
+     justify-center
+     align-middle
+     border
+     border-slate-500
+     rounded-lg
+     p-3
+     mb-10
+     mx-auto
+     lg:mr-6
+     md:w-[96%]
+     w-[100%]  
+}
+.FrequentPurchases {
+     @apply
+     text-white
+     py-2
+     pl-8
+     capitalize
+     font-bold
+     text-left 
+}
+.parentBuyRepeat{
+     @apply
+     flex
+     justify-center
+     flex-wrap
+     lg:flex-nowrap
+     text-white
+     mx-auto
+}
+.mapBuyRepeat{
+     @apply
+     w-[100%]
+     mt-4
+}
+.mapBuyRepeat img{ 
+     @apply
+    rounded-lg
+    mx-2
+}
+.mapBuyRepeat p{
+     @apply
+     w-[100%]
+     mt-4
+     ml-3
+     mb-4
+     text-center
+     
+}

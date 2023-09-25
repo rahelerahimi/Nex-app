@@ -1,0 +1,188 @@
+.flexParent{
+     @apply
+     flex
+     justify-center
+     flex-wrap
+     md:flex-nowrap
+     mt-5
+     mx-auto
+     text-white
+     w-[95%]
+}
+
+.figureSinglePage{
+     @apply
+     w-[100%]
+     md:w-[30%]
+       
+}
+
+.imgSinglePage{
+     @apply
+     w-[100%]
+     rounded-md
+     mx-2     
+}
+
+.flexColSinglePage{
+     @apply
+     w-[80%]
+     flex
+     flex-col
+     p-3
+     ml-5
+}
+
+.flexColSinglePage span{
+     @apply
+     font-bold
+     mr-3
+     capitalize
+}
+
+.titleSinglePage{
+     @apply
+     text-white
+     text-5xl
+     font-bold
+     capitalize
+}
+.parentStar{
+     @apply
+     flex
+     mt-6
+}
+.parentStar>div{
+     @apply
+     text-xl
+     text-[#7b61ff]
+     mx-1
+}
+.captionSinglePage{
+     @apply
+     w-[70%]
+     mt-6
+     mb-10
+     text-[1em]
+     capitalize
+}
+.price{
+     @apply
+     text-2xl
+     text-red-300
+}
+.genres{
+     @apply
+     flex
+     
+}
+.flexColSinglePage p:nth-of-type(3),
+.flexColSinglePage p:nth-of-type(4),
+.flexColSinglePage p:nth-of-type(5){
+     @apply
+     py-2
+}
+.buy{
+     @apply
+     w-[150px]
+     bg-[#6348e9]
+     text-white
+     rounded
+     capitalize
+     py-3
+     px-2
+     mt-10
+}
+.showCart{
+     right:0;
+}
+.recommended{
+     @apply
+     capitalize
+     mt-11
+     mb-4
+     text-xl
+     font-bold
+}
+.moreImageSinglePage{
+     @apply
+     grid
+     gap-3
+     md:grid-cols-3
+}
+
+
+.figureTrend{
+     @apply
+     relative
+     overflow-hidden
+     w-[100%]
+}
+
+.figureTrend:hover .btnTrend{
+     @apply
+     opacity-100
+     bottom-1
+}
+
+.figureTrend:hover .iconTrend{
+     @apply
+     opacity-100
+     top-1/3
+}
+
+
+.imgVideo{
+     @apply
+     rounded-lg
+     mt-5
+     w-[100%]
+     h-[250px]
+}
+
+.titleVideo{
+     @apply
+     font-bold
+     text-lg
+     py-4
+     pr-4
+}
+
+
+.iconTrend{
+     @apply
+   absolute
+   top-[30%]
+   left-[50%]
+   -translate-x-1/2 
+   -translate-y-1/2
+   text-5xl
+   text-white 
+   opacity-0
+   duration-500
+}
+
+
+.btnTrend{
+      @apply
+     btn-active 
+     text-white
+     bg-[#7C3AED]
+     border-transparent
+     rounded-md
+     capitalize
+     font-bold
+     absolute
+     -bottom-2
+     left-[50%]
+     -translate-x-1/2 
+     -translate-y-1/2
+     h-[40px]
+     w-[90%] 
+     opacity-0
+     duration-500
+     hover:bg-[#7C3AED]
+     hover:border-transparent 
+}
+
+

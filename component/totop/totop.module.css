@@ -1,0 +1,24 @@
+.totop{
+  @apply
+  text-white
+  w-[50px]
+  h-[50px]
+  bg-[#7a39ea]
+  rounded-full
+  flex
+  justify-center
+  align-middle
+  opacity-0
+  duration-300
+   fixed
+   right-[20px]
+   bottom-[20px]
+   pt-4
+   cursor-pointer
+ }
+
+ .showtotop{
+     @apply
+     opacity-100
+     bottom-[40px]
+ }

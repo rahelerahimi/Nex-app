@@ -1,0 +1,61 @@
+
+.parentComment{
+     @apply
+     w-[100%]  
+     mt-4 
+     mx-0
+}
+
+.titleComment{
+     @apply
+     text-slate-50
+     font-bold
+     text-3xl
+     text-center
+     py-10
+     w-[100%]
+}
+
+.textar{
+     @apply
+     w-full
+     textarea 
+     textarea-primary
+     bg-slate-800
+     capitalize    
+}
+.parentTextInput{
+     @apply
+     grid
+     grid-cols-2
+     w-[100%]
+}
+.textIn{
+     @apply
+     input
+     input-bordered
+     input-primary
+     bg-slate-800 
+     max-w-lg
+     mt-4
+     capitalize
+     w-[98%]   
+}
+
+.errorComment{
+     @apply
+     text-red-600
+}
+.btnComment{
+     @apply
+     btn 
+     btn-primary
+     w-[150px]
+}
+
+.comment_textar__8GzD6:focus {
+     outline-style: solid;
+     outline-width: 2px;
+     outline-offset: 2px;
+     outline-color: red;
+   }

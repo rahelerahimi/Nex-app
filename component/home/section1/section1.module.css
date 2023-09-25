@@ -1,0 +1,59 @@
+.parentTitle{
+     @apply
+     py-20
+     mt-6
+}
+
+.title{
+     @apply
+     text-slate-50
+     text-center
+     capitalize
+     font-bold
+     py-8
+     px-5
+     mb-4
+     text-3xl
+     md:text-3xl
+}
+.text{
+     @apply
+     text-slate-500
+     text-center
+     w-[80%]
+     mx-auto
+     text-lg
+     md:w-[40%]
+}
+.parentMapText{
+     @apply
+     md:flex
+
+}
+.mapText{
+     @apply
+   
+     text-slate-50
+     p-16
+     text-center
+     md:w-[50%]
+     lg:w-2/6
+}
+.img{
+     @apply
+     mx-auto
+}
+
+.titleWeb3{
+     @apply
+     text-slate-50
+     font-bold
+     text-lg
+     py-5
+     hover:text-[#7c3aed]
+
+}
+.textWeb3{
+     @apply
+     text-slate-500
+}

@@ -1,0 +1,80 @@
+.parentDashboard{
+@apply
+p-2
+
+}
+
+.flexDashboard{
+@apply
+flex
+flex-wrap-reverse
+lg:flex-nowrap
+md:justify-between 
+justify-center
+items-start 
+gap-2 
+
+}
+
+.dashboardContent{
+     @apply
+     w-[90%]
+     lg:w-[70%]
+     mt-5
+     mx-auto
+     pr-7
+}
+.logoDashboard{
+     @apply
+     w-[90%]
+     md:w-[100%]
+     lg:w-[30%]
+     rounded-lg
+     mx-auto
+}
+
+
+.flexDashboard ul{
+@apply
+w-[100%]
+md:w-[90%]
+bg-slate-800
+p-4 
+mt-10
+mx-auto
+rounded-lg
+text-slate-100 
+
+} 
+
+
+.flexDashboard li{
+@apply
+w-[100%]
+bg-slate-700
+rounded 
+capitalize
+flex
+align-middle
+p-2
+my-2
+}
+
+
+.flexDashboard li a{
+@apply
+block
+w-[100%]
+h-[100%]
+}
+
+.flexDashboard span{
+ @apply
+ px-1
+
+ }
+
+ .iconDashboard{
+ @apply
+ mt-1
+ }

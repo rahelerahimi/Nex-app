@@ -1,0 +1,29 @@
+.parentModal{
+     @apply
+     fixed 
+     top-0 
+     left-0 
+     w-full 
+     h-full 
+     flex 
+     items-center 
+     justify-center 
+     bg-black/[.7]
+     z-50
+}
+
+.modalContainer{
+    @apply
+    w-[60%]
+    md:w-[40%]
+    lg:w-[30%]
+    bg-[#0f172a]
+    rounded-lg
+    px-5
+    py-7
+}
+.modalCloseButton{
+     @apply
+     text-white
+     font-bold
+}

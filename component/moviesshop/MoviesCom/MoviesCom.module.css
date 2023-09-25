@@ -1,0 +1,65 @@
+.parentMovies{
+     @apply
+    py-4
+    grid
+    gap-2
+    lg:grid-cols-2
+}
+
+.pagination {
+  @apply
+  flex
+  justify-center
+  p-5
+}
+
+.paginationBack{
+  @apply
+  text-white
+  p-1
+  flex
+  justify-center
+}
+
+.paginationLink {
+  @apply
+  px-3
+  py-2 
+  mx-2
+  bg-slate-800
+  text-white
+  rounded
+} 
+
+.paginationPrevNext {
+  @apply
+  px-3
+  py-3
+  mx-2
+  -mt-2
+  bg-slate-800
+  text-white
+  rounded
+} 
+.paginationLink:hover{
+@apply
+bg-violet-600
+}
+.paginationPrevNext:hover{
+  @apply
+  bg-violet-600
+}
+
+.active {
+  @apply
+  bg-violet-600
+  text-white
+}
+.MoviesCom_active__y8pLZ {
+  margin: 0 5px;
+}
+.invisible{
+  @apply
+  hidden
+ 
+}

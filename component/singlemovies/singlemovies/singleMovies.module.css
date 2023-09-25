@@ -1,0 +1,10 @@
+.buy{
+     @apply
+     w-[150px]
+     bg-blue-700
+     text-white
+     rounded
+     py-3
+     px-10
+     m-2
+}

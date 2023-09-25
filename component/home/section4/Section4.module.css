@@ -1,0 +1,8 @@
+.title{
+     @apply
+     text-white
+     text-center
+     p-10
+     text-3xl
+     font-bold
+}

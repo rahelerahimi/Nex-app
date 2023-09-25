@@ -1,0 +1,45 @@
+.parentAlmost{
+     @apply
+     text-slate-50
+     bg-[url('/img/bg.jpg')]
+     w-[90%]
+     h-[100%]
+     px-20
+     py-20
+     bg-no-repeat
+     mx-auto
+     my-20
+     grid 
+     gap-4
+     lg:grid-cols-2  
+}
+.almost{
+     @apply
+     font-bold
+     text-5xl
+     py-5
+     capitalize
+     
+}
+.textCaption{
+     @apply
+     text-slate-400
+}
+.btnPlay{
+     @apply
+     bg-indigo-600
+     font-bold
+     px-8
+     py-4
+     my-8
+     rounded-lg
+   
+}
+.imgBg{
+     @apply
+     h-[300px]
+     object-cover
+     rounded-lg
+   hidden
+    md:block
+}

@@ -1,0 +1,60 @@
+.parentSubsUs{
+     @apply
+     w-[100%]
+     bg-[url('/img/ab-0.jpg')]
+     py-36
+     my-20
+     flex
+     flex-col
+     justify-center
+     align-middle
+     text-white
+     relative
+     z-[1]
+}
+
+.parentSubsUs div:nth-of-type(1) {
+     @apply
+     content-none
+     absolute
+     top-0
+     left-0
+     w-[100%]
+     h-[100%]
+     bg-gradient-to-r from-blue-900 to-black/[.5]
+    -z-[2]   
+}
+.parentSubsUs p{
+     @apply
+    text-center
+    font-bold
+}
+.parentSubsUs p:nth-of-type(1){
+     @apply
+    text-3xl
+    lg:text-4xl
+    w-[70%]
+    md:w-[40%]
+    mx-auto
+    py-3
+}
+.parentSubsUs p:nth-of-type(2){
+     @apply
+     text-lg
+     md:text-xl
+     py-5
+}
+
+.btnSubsUs{
+     @apply
+     btn 
+     bg-gradient-to-r from-blue-700 to-fuchsia-500
+     w-[40%]
+     md:w-[20%]
+     lg:w-[15%]
+     mx-auto
+     py-4
+     border-transparent
+     text-white
+     hover:border-transparent
+}

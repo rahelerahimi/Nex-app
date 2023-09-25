@@ -1,0 +1,14 @@
+.parentItemMovies{
+     @apply
+     px-10
+     py-6
+     grid
+     gap-7
+     text-white
+     md:grid-cols-2
+     lg:grid-cols-3
+}
+.map{
+     @apply
+     p-5
+}
