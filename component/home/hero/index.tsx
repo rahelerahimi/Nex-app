@@ -38,6 +38,7 @@ import { SwiperData } from '../../type/type';
                 return <SwiperSlide key={item.id}  >
                   <figure className={styles.figureSwip}>
                   <Image alt={item.alt} src={item.src}  width={800} height={600} priority={true}/>
+          
                   </figure>
                   </SwiperSlide>
               })

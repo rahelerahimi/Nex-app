@@ -1,9 +1,9 @@
 import React from 'react';
-import { getDataTrend } from '../../api';
+import { getDataMovie } from '../../api';
 import MoviesCom from '../MoviesCom';
 
 const GetMoviesItem = async() => {
-     const data= await getDataTrend()
+     const data= await getDataMovie ()
   return (
 
     <div>

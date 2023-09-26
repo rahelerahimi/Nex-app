@@ -1,10 +1,10 @@
 import React from 'react';
-import {getDataSwiper} from '../../api'
+import {getStaticProps} from '../../api'
 import Swip from "../swiper"
 
 
 const Section4= async () => {
-  const data = await getDataSwiper();
+  const data = await getStaticProps();
 
   return (
     <div>

@@ -13,7 +13,7 @@ const DiscountContent = () => {
           discountContentDate.map((item: DiscountContentDate) => {
             return (
               <div key={item.id} className={styles.mapDiscount}>
-                              <Image src={item.src} alt={item.title} width={100} height={200} priority={true} />
+                <Image src={item.src} alt={item.title} width={100} height={200} priority={true} />
                 <div>
                 <div className={styles.parentCountTitle}>
                   <p >{item.count}</p>

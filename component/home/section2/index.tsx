@@ -1,11 +1,12 @@
 import React from 'react';
-import { getDataTrend } from "../../api";
+import { getDataMovie} from "../../api";
 import TrendMovies from "../trendMovies";
 
+  
 const Section2 = async () => {
 
-     const data = await getDataTrend();
-   
+     const data = await getDataMovie();
+
      return (
           <div >
                <TrendMovies data={data.data} />
