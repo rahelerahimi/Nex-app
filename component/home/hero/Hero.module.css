@@ -37,6 +37,8 @@
      font-bold
      text-4xl
      lg:text-6xl
+     hidden
+     md:inline-block
 }
 .sell{
      @apply
@@ -44,13 +46,16 @@
      text-4xl
      px-2
      lg:text-6xl
-    
+     hidden
+     md:inline-block
 }
 .textAnd{
      @apply
      font-bold 
      text-4xl
      lg:text-6xl
+     hidden
+     md:inline-block
 }
 .textCenter{
      @apply
@@ -60,6 +65,13 @@
      py-2 
       my-3
      lg:text-6xl
+}
+.watchResponce{
+     @apply
+     text-2xl
+     font-bold
+     block
+     md:hidden
 }
 .caption{
      @apply
@@ -93,16 +105,6 @@
       font-bold  
       my-3 mx-2
 }
-
-.figureSwip{
-     @apply
-     border-8 
-     border-slate-950
-     rounded-xl
-     w-[100%]
-     mx-auto
-}
-
 .parentSwiper{
      @apply
      py-11
@@ -113,4 +115,18 @@
      w-[100%] 
      md:w-[60%]
      lg:w-1/2
+}
+.figureSwip{
+     @apply
+     border-8 
+     border-slate-950
+     rounded-xl
+     w-[100%]
+     mx-auto
+}
+.figureSwip img{
+     @apply
+   
+     w-[100%]
+    
 }

@@ -12,16 +12,17 @@
 
 .figureSinglePage{
      @apply
-     w-[100%]
+     w-[80%]
      md:w-[30%]
-       
+    
 }
 
 .imgSinglePage{
      @apply
      w-[100%]
      rounded-md
-     mx-2     
+     mx-auto
+     md:mx-2     
 }
 
 .flexColSinglePage{
@@ -42,8 +43,11 @@
 
 .titleSinglePage{
      @apply
+     mt-2
+     md:mt-0
      text-white
-     text-5xl
+     text-3xl
+     md:text-5xl
      font-bold
      capitalize
 }
@@ -117,6 +121,7 @@
      relative
      overflow-hidden
      w-[100%]
+    
 }
 
 .figureTrend:hover .btnTrend{
