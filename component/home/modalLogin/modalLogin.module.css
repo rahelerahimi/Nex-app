@@ -14,9 +14,9 @@
 
 .modalContainer{
     @apply
-    w-[60%]
+    w-[70%]
     md:w-[40%]
-    lg:w-[30%]
+    lg:w-[30%] 
     bg-[#0f172a]
     rounded-lg
     px-5

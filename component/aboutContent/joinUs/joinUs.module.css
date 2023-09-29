@@ -23,7 +23,8 @@
 
 .flexComunity img{
      @apply
-     w-[100%]
+   w-[90%]
+   md:w-[100%]
    rounded-lg
    mx-auto
 }

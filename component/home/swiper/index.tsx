@@ -28,7 +28,7 @@ const Swip: FC<DataProps> = ({ data }) => {
           prevEl: ".prev-button",
         }}
         breakpoints={{
-          400: { slidesPerView: 1 },
+          250: { slidesPerView: 1 },
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
           990: { slidesPerView: 4 },

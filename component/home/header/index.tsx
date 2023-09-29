@@ -12,6 +12,7 @@ import { useRouter } from 'next/navigation'
 import ModalLogin from '../modalLogin';
 import { useMyContext } from '../../../app/context/theme';
 
+
 export default function Header() {
  
   const [value3, setValue3] = useState<string>('');
@@ -65,13 +66,13 @@ export default function Header() {
         model={items}
         start={
         <Link href={'/'}>
-          <Image alt='logo' src={'/img/logo.svg'} width={120} height={70} priority={true} className='logo' /></Link>
+          <Image alt='logo' src={'/img/logo.svg'} width={150} height={70} priority={true} className='logo' /></Link>
       }
 
         end={<span className="p-input-icon-left">
           <i className="pi pi-search icon-search" />
-          <InputText value={value3} onChange={(e) => setValue3(e.target.value)} placeholder="Search" />
-          <Button label="Login" severity="info" rounded  onClick={openModal}/>
+          <InputText value={value3} onChange={(e) => setValue3(e.target.value)} placeholder="Search" className="placeholder-hidden" />
+          <Button label="Login"  rounded  onClick={openModal}/>
         <ModalLogin  />
        
         </span>}

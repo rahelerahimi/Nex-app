@@ -43,15 +43,15 @@
      text-lg
      md:text-xl
      py-5
+     px-5
 }
 
 .btnSubsUs{
      @apply
      btn 
      bg-gradient-to-r from-blue-700 to-fuchsia-500
-     w-[40%]
-     md:w-[20%]
-     lg:w-[15%]
+     w-[150px]
+     mt-5
      mx-auto
      py-4
      border-transparent

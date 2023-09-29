@@ -49,7 +49,9 @@ overflow-hidden
      @apply
      text-white
      text-center
-     p-10
+      py-10
+      ml-16
+      md:ml-0
      -mt-10  
      text-3xl
      font-bold

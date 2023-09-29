@@ -9,7 +9,7 @@
 .selectOption{
      @apply
      block 
-     w-[100%] 
+     w-[80%] 
      px-4 
      py-2 
      ml-11
@@ -26,7 +26,8 @@
 }
 .parentBtnSort{
      @apply
-     ml-14
+
+    ml-5
      mt-5
      md:ml-28
     text-white
