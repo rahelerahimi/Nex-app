@@ -21,7 +21,7 @@ import { SwiperData } from '../../type/type';
           <span id='bg-gradient-to-l' className={styles.buy}>Watch</span>
           <span id='bg-gradient-to-2' className={styles.sell}>Video</span>
           <span className={styles.textAnd}>and</span>
-          <span className={styles.watchResponce}>Watch video </span>
+          <p className={styles.watchResponce}>Watch video </p>
           <h1 className={styles.textCenter}>
           Enjoy Forever</h1>
           <p className={styles.caption}>Enjoy exclusive Amazon Originals as well as popular movies and TV shows for USD 120z/month. Watch now, cancel anytime.</p>

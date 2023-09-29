@@ -67,11 +67,12 @@
      lg:text-6xl
 }
 .watchResponce{
-     @apply
-     text-2xl
-     font-bold
-     block
-     md:hidden
+     
+     @apply 
+     text-2xl 
+     font-bold 
+     block 
+     md:inline;
 }
 .caption{
      @apply
