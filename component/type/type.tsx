@@ -29,6 +29,15 @@ export interface MovieData {
   price:number;
 }
 
+export interface SubscribeData {
+  id: number,
+ plan: string,
+  price: string,
+  text1: string,
+  text2: string,
+  text3: string
+}
+
 export interface FooterData {
   id:number;
   t1:string;

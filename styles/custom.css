@@ -4,6 +4,11 @@ body{
      overflow-x: hidden;
    
 }
+
+.p-megamenu {
+height:110px!important;
+}
+
 .p-megamenu-root-list{
      margin:0 auto;
 }
@@ -14,7 +19,19 @@ body{
    .p-megamenu .p-menuitem-link:not(.p-disabled):hover {
      background-color: transparent;
    }
-  
+
+  .p-menuitem:nth-of-type(5) span:nth-of-type(2){
+    background:#6d54ee!important;
+    border-radius:50px!important;
+    padding: 0.5em 0.4em;
+    color:white!important;
+  }
+
+  .p-menuitem:nth-of-type(5) span:nth-of-type(2):hover{
+   color:white!important;
+ 
+  }
+
    .p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:focus {
      outline: 0 none;
      outline-offset: 0;
@@ -216,6 +233,8 @@ font-weight:bold;
   width:100%;
   height:350px;
 }
+
+
 /* --------------------swiper hero-------------------------- */
 .react-tabs__tab--selected {
   background: transparent;

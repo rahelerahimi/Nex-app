@@ -25,10 +25,12 @@ const CommentGetMap:FC<CommentGetMapProps> = ({ deleteComment, editComment, comm
                               <div className={styles.flexComment}> 
                               <p>{comment.name}</p>
                               <p>{comment.email}</p>
+                              <div>
                              <span>|</span> <button onClick={() => editComment(comment, formiksetvalues)}>
                                <FaRegEdit/>
                               </button>
                               <span>|</span><button onClick={() => deleteComment(comment.id, fetchComments)}><RiDeleteBinLine/></button>
+                              </div>
                               </div>
                                <p className={styles.commentArea}>{comment.area}</p>
                          </div>

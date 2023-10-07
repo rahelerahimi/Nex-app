@@ -11,7 +11,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation'
 import ModalLogin from '../modalLogin';
 import { useMyContext } from '../../../app/context/theme';
-
+import { FaUser } from 'react-icons/fa'
 
 export default function Header() {
  
@@ -32,7 +32,7 @@ export default function Header() {
 
     },
     {
-      label: 'Pages',
+      label: 'Category',
        icon: 'pi pi-fw ',
      
       items: [
@@ -40,7 +40,7 @@ export default function Header() {
           {
             label: '',
             
-            items: [ { label: 'About' }, { label: 'Contact' }, { label: 'MoviItem',  command: () => router.push('/movies/1'), 
+            items: [ { label: 'Drama',  command: () => router.push('/'), }, { label: 'Fantasy',  command: () => router.push('/'), }, { label: 'Action',  command: () => router.push(''), 
           }, ]
           },
 
@@ -55,6 +55,13 @@ export default function Header() {
        icon: 'pi pi-fw ',
         command: () =>router.push('/about'),
 
+    },
+    {
+      label: 'Subscription',
+   
+       icon: 'pi pi-fw ',
+        command: () =>router.push('/subscription'),
+
     }
   ]
 
@@ -65,14 +72,19 @@ export default function Header() {
       <MegaMenu
         model={items}
         start={
+          <>
+        
         <Link href={'/'}>
           <Image alt='logo' src={'/img/logo.svg'} width={150} height={70} priority={true} className='logo' /></Link>
+          </>
       }
 
-        end={<span className="p-input-icon-left">
+        end={
+        <span className="p-input-icon-left">
           <i className="pi pi-search icon-search" />
           <InputText value={value3} onChange={(e) => setValue3(e.target.value)} placeholder="Search" className="placeholder-hidden" />
-          <Button label="Login"  rounded  onClick={openModal}/>
+
+          <Button label="Sign in"  rounded  onClick={openModal}/>
         <ModalLogin  />
        
         </span>}

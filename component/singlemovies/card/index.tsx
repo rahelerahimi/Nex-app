@@ -38,6 +38,7 @@ const Card = () => {
                                         <div className={styles.parentCount}>
                                              <button onClick={() => removeProduct(item)}>-</button>
                                              <p>{item.count}</p>
+                                             
                                              <button onClick={() => addProducts(item)}>+</button>
                                         </div>
                                    </div>

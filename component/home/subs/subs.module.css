@@ -1,0 +1,96 @@
+.parentSubsCribe{
+     @apply
+     text-white
+}
+.title1Subs{
+@apply
+text-5xl
+text-center
+font-bold
+mt-16
+
+}
+
+.title2Subs{
+     @apply
+     text-lg
+     text-center
+     text-slate-400
+     py-5
+     }
+     
+.parentSubsItem{
+     @apply
+     flex
+     justify-center
+     w-[94%]
+     mx-auto
+}
+.itemSubs{
+     @apply
+     grid
+     gap-2
+     grid-cols-1
+     md:grid-cols-2
+     lg:grid-cols-3
+     my-10
+
+}
+.itemSubs>div{
+     @apply
+    border
+    border-[#6c52ee]
+    py-8
+    px-7
+   rounded-lg  
+   mx-3
+   mt-3
+}
+.plan{
+     @apply
+     font-bold
+     uppercase
+     text-sm
+}
+
+.price{
+     @apply
+     font-bold
+     text-2xl
+     py-4
+}
+
+.parentPrice{
+     @apply
+     flex
+     justify-center
+     flex-col
+     align-middle
+     text-center
+}
+
+.btnSubscribe{
+     @apply
+     border
+     border-[#6c52ee]
+     bg-[#6c52ee]
+      rounded-lg  
+      w-[200px]
+      h-[40px]
+      capitalize
+      font-bold
+      mx-auto
+      my-5
+      hover:bg-[transparent]
+}
+
+
+.parentTextSubs{
+     @apply
+     mt-3
+     text-center
+}
+.parentTextSubs p{
+     @apply
+     py-5
+}

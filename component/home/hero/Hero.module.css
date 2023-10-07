@@ -37,8 +37,7 @@
      font-bold
      text-4xl
      lg:text-6xl
-     hidden
-     md:inline-block
+     inline-block
 }
 .sell{
      @apply
@@ -46,16 +45,14 @@
      text-4xl
      px-2
      lg:text-6xl
-     hidden
-     md:inline-block
+     inline-block
 }
 .textAnd{
      @apply
      font-bold 
      text-4xl
      lg:text-6xl
-     hidden
-     md:inline-block
+     inline-block
 }
 .textCenter{
      @apply
@@ -66,14 +63,8 @@
       my-3
      lg:text-6xl
 }
-.watchResponce{
-     
-     @apply 
-     text-2xl 
-     font-bold 
-     block 
-     md:inline;
-}
+
+
 .caption{
      @apply
  
