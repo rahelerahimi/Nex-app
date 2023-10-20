@@ -4,9 +4,9 @@ import BuyRepeat from "../buyrepeat";
 const SummaryActivesContent = () => {
   return (
     <div>
-<Status/>
-<BuyRepeat/>
+      <Status />
+      <BuyRepeat />
     </div>
-  )
-}
+  );
+};
 export default SummaryActivesContent;

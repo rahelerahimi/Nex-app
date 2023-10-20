@@ -1,88 +1,79 @@
-
-.parentSwiper{
-     @apply
+.parentSwiper {
+  @apply 
      w-[93%] 
      px-5
      py-14
      pr-20
-    md:pr-12   
-  
+     md:pr-12;
 }
 
-.parentMap{
-@apply
-text-white
-  relative
-  mb-20
+.parentMap {
+  @apply
+   text-white
+     relative
+     mb-20;
 }
 
-.parentMap:hover .absoluteMap{
-     @apply
-     w-[100%]
-     
+.parentMap:hover .absoluteMap {
+  @apply 
+  w-[100%];
 }
 
-.parentMap:hover .btnMap{
-     @apply
-     block 
+.parentMap:hover .btnMap {
+  @apply 
+  block;
 }
 
-.absoluteMap{
-@apply
-absolute
-top-0
-left-0
-bg-[#7a39ea]
-w-[0%]
-h-[100%]
-rounded-xl
-duration-500
-flex
-flex-col
-justify-between
-align-middle
-overflow-hidden
+.absoluteMap {
+  @apply
+   absolute
+   top-0
+   left-0
+ bg-[#7a39ea]
+   w-[0%]
+   h-[100%]
+   rounded-xl
+   duration-500
+   flex
+   flex-col
+   justify-between
+   align-middle
+   overflow-hidden;
 }
 
-
-.title{
-     @apply
-     text-white
+.title {
+  @apply text-white
      text-center
       py-10
       ml-16
       md:ml-0
      -mt-10  
      text-3xl
-     font-bold
+     font-bold;
 }
 
-.imgSlider{
-     @apply
-     rounded-xl
+.imgSlider {
+  @apply rounded-xl
      h-[350px]
-     mt-14    
+     mt-14;
 }
 
-.textSlider{
-     @apply
-     font-bold
-     py-4
+.textSlider {
+  @apply font-bold
+     py-4;
 }
 
-.countryMap{
-     @apply
-     w-[200px]
+.countryMap {
+  @apply w-[200px]
      mt-40
      mx-auto
      text-center
      capitalize
-     px-3
+     px-3;
 }
 
-.btnMap{
-     @apply
-     absolute
+.btnMap {
+  @apply absolute
      bottom-10
      left-[50%]
      -translate-x-[50%]
@@ -94,12 +85,11 @@ overflow-hidden
      hidden
      text-white
      delay-500
-     hover:bg-transparent
+     hover:bg-transparent;
 }
 
 .navigation {
-     @apply
-     absolute
+  @apply absolute
      -bottom-8
      -translate-y-[50%]
      left-0
@@ -107,12 +97,11 @@ overflow-hidden
      flex
      justify-start
      align-middle
-     z-[1]
+     z-[1];
 }
 
-.stylenavigation{
-     @apply
-     mx-2
+.stylenavigation {
+  @apply mx-2
      mt-10
      text-white
      font-bold
@@ -126,5 +115,5 @@ overflow-hidden
      align-middle
      pt-3
      cursor-pointer
-     hover:bg-[#6c52ee]
+     hover:bg-[#6c52ee];
 }
